@@ -46,3 +46,70 @@
     left: 57%; 
     cursor: pointer;
 }
+
+.saltar{
+    animation: salto 0.5s ease forwards;
+}
+
+
+@keyframes salto {
+    0% {transform: translateY(0); opacity: 1;}
+    30% {transform: translateY(-60px);}
+    100% {transform: translateY(0px); opacity: 0;}
+}
+
+
+/* Contador monedas y corazones */
+
+.hud {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: white;
+    z-index: 1000;
+}
+
+.hud-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.hud-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+@keyframes mover-lateral {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.bloque1 {
+    position: absolute;
+    top: 47%;
+    left: 18%;
+    animation: mover-lateral 4s linear infinite;
+}
+
+.bloque2 {
+    position: absolute;
+    top: 32%;
+    left: 53%;
+    animation: mover-lateral 3s linear infinite;
+}
