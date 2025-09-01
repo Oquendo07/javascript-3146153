@@ -190,3 +190,45 @@
   border: 3px solid #FFD700;
 }
 
+
+
+button {
+    background-color: #FFDF00;
+    color: #009C3B;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #FFDF00;
+}
+
+.play-stop-img3{
+      background-color: black;
+      color: aliceblue;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    #play-stop-img3:hover{
+      background-color: aliceblue;
+    }
+    #play-stop-img3{
+      background-color: rgb(45, 75, 243);
+      color: black;
+      border: none;
+      position: absolute;
+      top: 4%;
+      left: 33%;
+      cursor: pointer;
+      padding: 1rem;
+      border-radius: 3rem;
+      font-size: 16px;
+    }
