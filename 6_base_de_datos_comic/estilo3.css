@@ -1,0 +1,246 @@
+/* 
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background-color: #0a0a0a;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.hero {
+  background: url('./assest/Copilot_20250923_162122.png') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: #bbb;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.btn-primary {
+  background-color: #e50914;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #b00610;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.quick-nav {
+  padding: 2rem;
+  background-color: #111;
+}
+
+.quick-nav h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.nav-item {
+  background-color: #222;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.nav-item:hover {
+  background-color: #333;
+}
+ */
+
+ body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0e0e0e;
+  color: #e0e0e0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #00f;
+}
+
+.logo {
+  
+  
+
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #ccc;
+  gap: 20px;
+}
+
+.search-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+section.show-info {
+  padding: 2rem;
+  border-bottom: 2px solid #0ff;
+  background-image: url('./assest/Fondo-cap.jpg'); /* Reemplaza con tu imagen */
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.buttons button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.description {
+  padding: 2rem;
+  border-bottom: 2px solid #f0f;
+  background-color: #121212;
+}
+
+.description p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.description span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-top: 2px solid #ff0;
+}
+
+footer a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.logo22{
+  width: 100px;
+  height: auto;
+}
+/* .sec1{
+    width: 100%;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

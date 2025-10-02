@@ -1,0 +1,119 @@
+/* estilos.css */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3D7A64;
+  padding: 20px 40px;
+}
+.navegadores{
+  margin-left: 25px;
+  text-decoration: none;
+  color: #93F4C7;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+.navegadores :hover{
+  color: #3D7A64;
+}
+.container{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.comic-panel {
+  flex: 3;
+  position: relative;
+  background: linear-gradient(to top, #1a1a1a, #000);
+}
+
+.explosion-bg {
+  background: url(./assest/Imagen5.png) center/cover no-repeat;
+  height: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-left: 4px solid #93F4C7;
+}
+
+.titulo {
+  font-size: 3rem;
+  color: #3D7A64;
+  margin: 0;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+.btn-reproducir {
+  background-color: #3D7A64;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.figura .silueta {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 120px;
+  background: url('silueta.png') center/contain no-repeat;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-left: 2px solid #333;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #93F4C7;
+}
+
+.capitulos {
+  list-style: none;
+  padding: 0;
+}
+
+.capitulos li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.capitulos img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 2px solid #444;
+}
+
+.capitulos span {
+  font-size: 1rem;
+  color: #eee;
+}

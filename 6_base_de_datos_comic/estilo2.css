@@ -1,0 +1,43 @@
+.sec1{
+    width: 100%;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgfondo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 78%;
+}
+
+.comic-button {
+  position: absolute;
+  z-index: 2;
+  padding: 12px 24px;
+  font-size: 80px;
+  background-color: #0b2924;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.comic-button:hover {
+  background-color: #12352f;
+}
+.logo img {
+  width: 200px;
+  height: auto;
+
+}
+.logosec{
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}

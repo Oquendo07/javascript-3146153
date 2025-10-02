@@ -1,0 +1,179 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* HEADER */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3D7A64;
+  padding: 20px 40px;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #93F4C7;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+  color: #4BA358;
+}
+
+/* ATLANTIS SECTION */
+.atlantis-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 40px;
+  background-color: #1D1D1D;
+  gap: 40px;
+  align-items: center;
+}
+
+.text-content {
+  flex: 1 1 400px;
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  color: #3FAA87;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.image-content {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4;
+  width: 55%;
+  height: auto;
+}
+
+/* EPISODES SECTION */
+.episodes-section {
+  padding: 60px 40px;
+  background-color: #eef2f7;
+  text-align: center;
+}
+
+.episodes-section h2 {
+  font-size: 2rem;
+  color: #3FAA87;
+  margin-bottom: 40px;
+}
+
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+.episode-card {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+ 
+}
+
+
+
+.episode-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+.episode-card h3 {
+  padding: 15px;
+  font-size: 1.1rem;
+  color: #3FAA87;
+  font-weight: 600;
+  background-color: #f9f9f9;
+}
+
+/* FOOTER */
+.main-footer {
+  background-color: #4BA358;
+  color: white;
+  padding: 40px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 4px solid #93F4C7;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+
+}
+
+.footer-links a:hover {
+  color: #93F4C7;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 26px;
+  height: 26px;
+  filter: brightness(0) invert(1);
+  
+}
+.icons{
+  width: 30px;
+  height: 20px;
+}
